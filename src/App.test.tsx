@@ -1,9 +1,12 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { BrowserRouter as RouterProvider } from 'react-router-dom';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+export function App() {
+  return (
+    <RouterProvider>
+      <div>
+        <h1>Hello World</h1>
+      </div>
+    </RouterProvider>
+  );
+}
