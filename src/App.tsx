@@ -1,10 +1,10 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import PokemonDetail from "./Components/PokemonDetail";
 import Home from "./Pages/Home";
 import theme from "./theme";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,

@@ -3,7 +3,7 @@
         "@types/react": "17.0.14",
         "@types/react-dom": "17.0.14"
     },
-    "homepage": "https://github.com/QuirkyOrc2020/pokedex/",
+    "homepage": "https://github.com/QuirkyOrc2020/pokedex",
     "name": "pokedex",
     "version": "0.1.0",
     "private": true,
